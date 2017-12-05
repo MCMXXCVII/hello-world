@@ -1,0 +1,17 @@
+cd ~/c
+ls
+touch hello.c
+nano hello.c
+
+---
+#include <stdio.h>
+
+main(void)
+{
+printf("Hello world!\n");
+}
+---
+
+gcc hello.c -o hello-2
+./hello-2
+
